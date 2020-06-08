@@ -23,7 +23,7 @@ spec:
            name: prometheus-port
          volumeMounts:
          - name: prometheus-storage
-           mountPath: /prometheus
+           mountPath: /prometheus-2.18.1.linux-amd64/data
          - name: config-volume
            #mountPath: /prometheus-2.18.1.linux-amd64/prometheus.yml
            mountPath: /etc/prometheus/prometheus.yml
